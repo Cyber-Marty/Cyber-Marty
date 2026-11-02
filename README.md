@@ -1,0 +1,44 @@
+# Cyber-Marty
+
+Python tooling, quantitative research, and AI evaluation.
+
+I contribute bug fixes to Python tools and quantitative-finance libraries, with a focus on numerical correctness, reproducibility, and regression tests.
+
+[Projects](#projects) | [Merged contributions](#merged-contributions) | [All pull requests](https://github.com/search?q=is%3Apr+author%3ACyber-Marty&type=pullrequests)
+
+## Merged contributions
+
+Selected fixes accepted upstream.
+
+| Project                                                                   | My contribution                                  | Merged PR                                                          |
+| ------------------------------------------------------------------------- | ------------------------------------------------ | ------------------------------------------------------------------ |
+| [pipx](https://github.com/pypa/pipx)                                      | Preserve extras on local archive installs        | [#2174](https://github.com/pypa/pipx/pull/2174)                    |
+| [nox](https://github.com/wntrblm/nox)                                     | Keep reused parameter specs independent          | [#1214](https://github.com/wntrblm/nox/pull/1214)                  |
+| [skfolio](https://github.com/skfolio/skfolio)                             | Stabilize entropic risk calculations             | [#440](https://github.com/skfolio/skfolio/pull/440)                |
+| [bt](https://github.com/pmorissette/bt)                                   | Fix cash-reserve position limits                 | [#638](https://github.com/pmorissette/bt/pull/638)                 |
+| [ffn](https://github.com/pmorissette/ffn)                                 | Prevent recursion in low-precision weight limits | [#425](https://github.com/pmorissette/ffn/pull/425)                |
+| [empyrical-reloaded](https://github.com/stefan-jansen/empyrical-reloaded) | Handle missing return pairs in batting averages  | [#92](https://github.com/stefan-jansen/empyrical-reloaded/pull/92) |
+
+[All merged pull requests](https://github.com/search?q=is%3Apr+is%3Amerged+author%3ACyber-Marty&type=pullrequests)
+
+## Projects
+
+**[SkillArena](https://github.com/Cyber-Marty/SkillArena)**  
+A local evaluation harness for comparing agent skills on frozen tasks, with auditable run evidence. [View the report](https://cyber-marty.github.io/SkillArena/).
+
+**[engineering-skills](https://github.com/Cyber-Marty/engineering-skills)**  
+Reusable agent skills and engineering notes from open-source work.
+
+## More open-source work
+
+**Python tools**  
+[parse](https://github.com/r1chardj0n3s/parse/pull/275)
+
+**Quantitative research**  
+[Qlib](https://github.com/microsoft/qlib/pulls?q=is%3Apr+author%3ACyber-Marty) / [skfolio](https://github.com/skfolio/skfolio/pulls?q=is%3Apr+author%3ACyber-Marty) / [QuantStats](https://github.com/ranaroussi/quantstats/pull/576) / [VeighNa](https://github.com/vnpy/vnpy/pull/3813)
+
+## How I work
+
+- Reproduce the issue before proposing a fix.
+- Explain the cause and keep the patch focused.
+- Add regression tests and respond to review.
