@@ -12,6 +12,7 @@ Bug fixes accepted upstream, most recent first.
 
 | Project                                                                   | My contribution                                   | Merged PR                                                          |
 | ------------------------------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------------------------ |
+| [nox](https://github.com/wntrblm/nox)                                     | Honor usage requests before session filtering     | [#1223](https://github.com/wntrblm/nox/pull/1223)                  |
 | [parse](https://github.com/r1chardj0n3s/parse)                            | Fix pickle round-trips for timezone-aware results | [#275](https://github.com/r1chardj0n3s/parse/pull/275)             |
 | [nox](https://github.com/wntrblm/nox)                                     | Keep reused parameter specs independent           | [#1214](https://github.com/wntrblm/nox/pull/1214)                  |
 | [pipx](https://github.com/pypa/pipx)                                      | Preserve extras on local archive installs         | [#2174](https://github.com/pypa/pipx/pull/2174)                    |
@@ -35,7 +36,7 @@ Reusable agent skills and engineering notes from open-source work.
 Selected pull requests; these changes have not been merged.
 
 **Python tools**  
-[nox #1223](https://github.com/wntrblm/nox/pull/1223) — Show requested usage even when session selection is empty.
+[jc #898](https://github.com/kellyjonbrazil/jc/pull/898) — Handle Windows CRLF input while preserving POSIX filename characters.
 
 **Quantitative research**  
 [Qlib](https://github.com/microsoft/qlib/pulls?q=is%3Apr+is%3Aopen+author%3ACyber-Marty) / [skfolio](https://github.com/skfolio/skfolio/pulls?q=is%3Apr+is%3Aopen+author%3ACyber-Marty) / [QuantStats](https://github.com/ranaroussi/quantstats/pull/576) / [VeighNa](https://github.com/vnpy/vnpy/pull/3813)
