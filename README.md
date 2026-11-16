@@ -10,16 +10,20 @@ I contribute bug fixes to Python tools and quantitative-finance libraries, with 
 
 Bug fixes accepted upstream, most recent first.
 
-| Project                                                                   | My contribution                                   | Merged PR                                                          |
-| ------------------------------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------------------------ |
-| [nox](https://github.com/wntrblm/nox)                                     | Honor usage requests before session filtering     | [#1223](https://github.com/wntrblm/nox/pull/1223)                  |
-| [parse](https://github.com/r1chardj0n3s/parse)                            | Fix pickle round-trips for timezone-aware results | [#275](https://github.com/r1chardj0n3s/parse/pull/275)             |
-| [nox](https://github.com/wntrblm/nox)                                     | Keep reused parameter specs independent           | [#1214](https://github.com/wntrblm/nox/pull/1214)                  |
-| [pipx](https://github.com/pypa/pipx)                                      | Preserve extras on local archive installs         | [#2174](https://github.com/pypa/pipx/pull/2174)                    |
-| [skfolio](https://github.com/skfolio/skfolio)                             | Stabilize entropic risk calculations              | [#440](https://github.com/skfolio/skfolio/pull/440)                |
-| [bt](https://github.com/pmorissette/bt)                                   | Fix cash-reserve position limits                  | [#638](https://github.com/pmorissette/bt/pull/638)                 |
-| [empyrical-reloaded](https://github.com/stefan-jansen/empyrical-reloaded) | Handle missing return pairs in batting averages   | [#92](https://github.com/stefan-jansen/empyrical-reloaded/pull/92) |
-| [ffn](https://github.com/pmorissette/ffn)                                 | Prevent recursion in low-precision weight limits  | [#425](https://github.com/pmorissette/ffn/pull/425)                |
+| Project                                                                   | My contribution                                                      | Merged PR                                                          |
+| ------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [skfolio](https://github.com/skfolio/skfolio)                             | Preserve failed-period observation weights                           | [#477](https://github.com/skfolio/skfolio/pull/477)                |
+| [skfolio](https://github.com/skfolio/skfolio)                             | Preserve zero exposure for all-cash periods                          | [#473](https://github.com/skfolio/skfolio/pull/473)                |
+| [pydash](https://github.com/dgilland/pydash)                              | Keep partial iteratee args out of keyword-bound slots                | [#448](https://github.com/dgilland/pydash/pull/448)                |
+| [jc](https://github.com/kellyjonbrazil/jc)                                | Handle Windows CRLF input while preserving POSIX filename characters | [#898](https://github.com/kellyjonbrazil/jc/pull/898)              |
+| [nox](https://github.com/wntrblm/nox)                                     | Honor usage requests before session filtering                        | [#1223](https://github.com/wntrblm/nox/pull/1223)                  |
+| [parse](https://github.com/r1chardj0n3s/parse)                            | Fix pickle round-trips for timezone-aware results                    | [#275](https://github.com/r1chardj0n3s/parse/pull/275)             |
+| [nox](https://github.com/wntrblm/nox)                                     | Keep reused parameter specs independent                              | [#1214](https://github.com/wntrblm/nox/pull/1214)                  |
+| [pipx](https://github.com/pypa/pipx)                                      | Preserve extras on local archive installs                            | [#2174](https://github.com/pypa/pipx/pull/2174)                    |
+| [skfolio](https://github.com/skfolio/skfolio)                             | Stabilize entropic risk calculations                                 | [#440](https://github.com/skfolio/skfolio/pull/440)                |
+| [bt](https://github.com/pmorissette/bt)                                   | Fix cash-reserve position limits                                     | [#638](https://github.com/pmorissette/bt/pull/638)                 |
+| [empyrical-reloaded](https://github.com/stefan-jansen/empyrical-reloaded) | Handle missing return pairs in batting averages                      | [#92](https://github.com/stefan-jansen/empyrical-reloaded/pull/92) |
+| [ffn](https://github.com/pmorissette/ffn)                                 | Prevent recursion in low-precision weight limits                     | [#425](https://github.com/pmorissette/ffn/pull/425)                |
 
 [All merged pull requests](https://github.com/search?q=is%3Apr+is%3Amerged+author%3ACyber-Marty&type=pullrequests)
 
@@ -35,11 +39,9 @@ Reusable agent skills and engineering notes from open-source work.
 
 Selected pull requests; these changes have not been merged.
 
-**Python tools**  
-[jc #898](https://github.com/kellyjonbrazil/jc/pull/898) — Handle Windows CRLF input while preserving POSIX filename characters.
-
 **Quantitative research**  
-[Qlib](https://github.com/microsoft/qlib/pulls?q=is%3Apr+is%3Aopen+author%3ACyber-Marty) / [skfolio](https://github.com/skfolio/skfolio/pulls?q=is%3Apr+is%3Aopen+author%3ACyber-Marty) / [QuantStats](https://github.com/ranaroussi/quantstats/pull/576) / [VeighNa](https://github.com/vnpy/vnpy/pull/3813)
+[arch #1025](https://github.com/bashtage/arch/pull/1025) — Return SkewStudent partial moments when lambda is 1.  
+[Qlib](https://github.com/microsoft/qlib/pulls?q=is%3Apr+is%3Aopen+author%3ACyber-Marty) / [QuantStats](https://github.com/ranaroussi/quantstats/pull/576) / [VeighNa](https://github.com/vnpy/vnpy/pull/3813)
 
 [All open pull requests](https://github.com/search?q=is%3Apr+is%3Aopen+author%3ACyber-Marty&type=pullrequests)
 
