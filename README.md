@@ -12,6 +12,7 @@ Bug fixes accepted upstream, most recent first.
 
 | Project                                                                   | My contribution                                                      | Merged PR                                                          |
 | ------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [arch](https://github.com/bashtage/arch)                                  | Return SkewStudent partial moments when lambda is 1                  | [#1025](https://github.com/bashtage/arch/pull/1025)                |
 | [skfolio](https://github.com/skfolio/skfolio)                             | Preserve failed-period observation weights                           | [#477](https://github.com/skfolio/skfolio/pull/477)                |
 | [skfolio](https://github.com/skfolio/skfolio)                             | Preserve zero exposure for all-cash periods                          | [#473](https://github.com/skfolio/skfolio/pull/473)                |
 | [pydash](https://github.com/dgilland/pydash)                              | Keep partial iteratee args out of keyword-bound slots                | [#448](https://github.com/dgilland/pydash/pull/448)                |
@@ -39,8 +40,10 @@ Reusable agent skills and engineering notes from open-source work.
 
 Selected pull requests; these changes have not been merged.
 
+**Scientific Python**  
+[lmfit #1067](https://github.com/lmfit/lmfit-py/pull/1067) — Fix guess_from_peak() for pandas.Series and array-like inputs.
+
 **Quantitative research**  
-[arch #1025](https://github.com/bashtage/arch/pull/1025) — Return SkewStudent partial moments when lambda is 1.  
 [Qlib](https://github.com/microsoft/qlib/pulls?q=is%3Apr+is%3Aopen+author%3ACyber-Marty) / [QuantStats](https://github.com/ranaroussi/quantstats/pull/576) / [VeighNa](https://github.com/vnpy/vnpy/pull/3813)
 
 [All open pull requests](https://github.com/search?q=is%3Apr+is%3Aopen+author%3ACyber-Marty&type=pullrequests)
