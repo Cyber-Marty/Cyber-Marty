@@ -1,4 +1,4 @@
-# Cyber-Marty
+# PipesVisuals
 
 Python tooling, quantitative research, and AI evaluation.
 
