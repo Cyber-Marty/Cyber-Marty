@@ -12,6 +12,7 @@ Bug fixes accepted upstream, most recent first.
 
 | Project                                                                   | My contribution                                                      | Merged PR                                                          |
 | ------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [black](https://github.com/psf/black)                                     | Fix --line-ranges inserting blank lines with # fmt: skip headers     | [#5703](https://github.com/psf/black/pull/5703)                    |
 | [arch](https://github.com/bashtage/arch)                                  | Return SkewStudent partial moments when lambda is 1                  | [#1025](https://github.com/bashtage/arch/pull/1025)                |
 | [skfolio](https://github.com/skfolio/skfolio)                             | Preserve failed-period observation weights                           | [#477](https://github.com/skfolio/skfolio/pull/477)                |
 | [skfolio](https://github.com/skfolio/skfolio)                             | Preserve zero exposure for all-cash periods                          | [#473](https://github.com/skfolio/skfolio/pull/473)                |
@@ -40,8 +41,13 @@ Reusable agent skills and engineering notes from open-source work.
 
 Selected pull requests; these changes have not been merged.
 
-**Scientific Python**  
-[lmfit #1067](https://github.com/lmfit/lmfit-py/pull/1067) — Fix guess_from_peak() for pandas.Series and array-like inputs.
+**Python tooling**  
+[Black #5709](https://github.com/psf/black/pull/5709) — Fix `# fmt: skip` inside f-string and t-string replacement fields.  
+[pipx #2481](https://github.com/pypa/pipx/pull/2481) — Continue interpreter upgrade when an environment or build fails.
+
+**Optimization & scientific Python**  
+[Optuna #6975](https://github.com/optuna/optuna/pull/6975) — Fall back to default target names when `study.metric_names` length mismatches targets.  
+[lmfit #1067](https://github.com/lmfit/lmfit-py/pull/1067) — Fix `guess_from_peak()` for `pandas.Series` and array-like inputs.
 
 **Quantitative research**  
 [Qlib](https://github.com/microsoft/qlib/pulls?q=is%3Apr+is%3Aopen+author%3ACyber-Marty) / [QuantStats](https://github.com/ranaroussi/quantstats/pull/576) / [VeighNa](https://github.com/vnpy/vnpy/pull/3813)
