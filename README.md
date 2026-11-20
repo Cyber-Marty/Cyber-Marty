@@ -12,6 +12,7 @@ Bug fixes accepted upstream, most recent first.
 
 | Project                                                                   | My contribution                                                      | Merged PR                                                          |
 | ------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [ffn](https://github.com/pmorissette/ffn)                                 | Align set_date_range bounds to timezone-aware indexes                | [#466](https://github.com/pmorissette/ffn/pull/466)                |
 | [black](https://github.com/psf/black)                                     | Fix --line-ranges inserting blank lines with # fmt: skip headers     | [#5703](https://github.com/psf/black/pull/5703)                    |
 | [arch](https://github.com/bashtage/arch)                                  | Return SkewStudent partial moments when lambda is 1                  | [#1025](https://github.com/bashtage/arch/pull/1025)                |
 | [skfolio](https://github.com/skfolio/skfolio)                             | Preserve failed-period observation weights                           | [#477](https://github.com/skfolio/skfolio/pull/477)                |
@@ -45,11 +46,11 @@ Selected pull requests; these changes have not been merged.
 [Black #5709](https://github.com/psf/black/pull/5709) — Fix `# fmt: skip` inside f-string and t-string replacement fields.  
 [pipx #2481](https://github.com/pypa/pipx/pull/2481) — Continue interpreter upgrade when an environment or build fails.
 
-**Optimization & scientific Python**  
-[Optuna #6975](https://github.com/optuna/optuna/pull/6975) — Fall back to default target names when `study.metric_names` length mismatches targets.  
+**Scientific Python**  
 [lmfit #1067](https://github.com/lmfit/lmfit-py/pull/1067) — Fix `guess_from_peak()` for `pandas.Series` and array-like inputs.
 
 **Quantitative research**  
+[empyrical-reloaded #133](https://github.com/stefan-jansen/empyrical-reloaded/pull/133) — Align pandas inputs in `roll_alpha` and `roll_beta`.  
 [Qlib](https://github.com/microsoft/qlib/pulls?q=is%3Apr+is%3Aopen+author%3ACyber-Marty) / [QuantStats](https://github.com/ranaroussi/quantstats/pull/576) / [VeighNa](https://github.com/vnpy/vnpy/pull/3813)
 
 [All open pull requests](https://github.com/search?q=is%3Apr+is%3Aopen+author%3ACyber-Marty&type=pullrequests)
