@@ -43,13 +43,16 @@ Reusable agent skills and engineering notes from open-source work.
 Selected pull requests; these changes have not been merged.
 
 **Python tooling**  
+[SQLFluff #9288](https://github.com/sqlfluff/sqlfluff/pull/9288) — Support DuckDB clauses following FROM-first queries.  
 [Black #5709](https://github.com/psf/black/pull/5709) — Fix `# fmt: skip` inside f-string and t-string replacement fields.  
 [pipx #2481](https://github.com/pypa/pipx/pull/2481) — Continue interpreter upgrade when an environment or build fails.
 
 **Scientific Python**  
+[arch #1039](https://github.com/bashtage/arch/pull/1039) / [#1041](https://github.com/bashtage/arch/pull/1041) — Fix `APARCH.constraints()` row indexing and vector `initial_value` simulation in `HARCH`/`MIDASHyperbolic`.  
 [lmfit #1067](https://github.com/lmfit/lmfit-py/pull/1067) — Fix `guess_from_peak()` for `pandas.Series` and array-like inputs.
 
 **Quantitative research**  
+[skfolio #516](https://github.com/skfolio/skfolio/pull/516) / [#519](https://github.com/skfolio/skfolio/pull/519) — Pass `factor` to `RiskBudgeting` risk functions and skip zero-probability experts in `OpinionPooling`.  
 [empyrical-reloaded #133](https://github.com/stefan-jansen/empyrical-reloaded/pull/133) — Align pandas inputs in `roll_alpha` and `roll_beta`.  
 [Qlib](https://github.com/microsoft/qlib/pulls?q=is%3Apr+is%3Aopen+author%3ACyber-Marty) / [QuantStats](https://github.com/ranaroussi/quantstats/pull/576) / [VeighNa](https://github.com/vnpy/vnpy/pull/3813)
 
