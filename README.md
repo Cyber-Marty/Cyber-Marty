@@ -47,6 +47,7 @@ Reusable agent skills and engineering notes from open-source work.
 Selected pull requests; these changes have not been merged.
 
 **Python tooling**  
+[pipx #2502](https://github.com/pypa/pipx/pull/2502) — Infer entry points for plain local project paths in `pipx run`.  
 [SQLFluff #9288](https://github.com/sqlfluff/sqlfluff/pull/9288) — Support DuckDB clauses following FROM-first queries.  
 [Black #5709](https://github.com/psf/black/pull/5709) — Fix `# fmt: skip` inside f-string and t-string replacement fields.
 
@@ -55,6 +56,9 @@ Selected pull requests; these changes have not been merged.
 [lmfit #1067](https://github.com/lmfit/lmfit-py/pull/1067) — Fix `guess_from_peak()` for `pandas.Series` and array-like inputs.
 
 **Quantitative research**  
+[skfolio #526](https://github.com/skfolio/skfolio/pull/526) / [#527](https://github.com/skfolio/skfolio/pull/527) — Ignore `risk_free_rate` in FLPM constraints and prevent DCC covariance freeze on sub-threshold variance.  
+[bt #682](https://github.com/pmorissette/bt/pull/682) — Handle negative unit prices in integer position allocation.  
+[empyrical-reloaded #136](https://github.com/stefan-jansen/empyrical-reloaded/pull/136) — Align inputs in `up`/`down` filters and rolling capture ratios.  
 [Qlib](https://github.com/microsoft/qlib/pulls?q=is%3Apr+is%3Aopen+author%3ACyber-Marty) / [QuantStats](https://github.com/ranaroussi/quantstats/pull/576) / [VeighNa](https://github.com/vnpy/vnpy/pull/3813)
 
 [All open pull requests](https://github.com/search?q=is%3Apr+is%3Aopen+author%3ACyber-Marty&type=pullrequests)
