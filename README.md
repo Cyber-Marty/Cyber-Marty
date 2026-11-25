@@ -54,10 +54,13 @@ Selected pull requests; these changes have not been merged.
 [Black #5709](https://github.com/psf/black/pull/5709) — Fix `# fmt: skip` inside f-string and t-string replacement fields.
 
 **Scientific Python**  
+[Pint #2585](https://github.com/hgrecco/pint/pull/2585) — Handle non-multiplicative/offset units in `NumpyQuantity.to_compact()`.  
+[linearmodels #883](https://github.com/bashtage/linearmodels/pull/883) — Require residual degrees of freedom in `FamaMacBethCovariance`.  
 [arch #1039](https://github.com/bashtage/arch/pull/1039) / [#1041](https://github.com/bashtage/arch/pull/1041) — Fix `APARCH.constraints()` row indexing and vector `initial_value` simulation in `HARCH`/`MIDASHyperbolic`.  
 [lmfit #1067](https://github.com/lmfit/lmfit-py/pull/1067) — Fix `guess_from_peak()` for `pandas.Series` and array-like inputs.
 
 **Quantitative research**  
+[pyfolio-reloaded #119](https://github.com/stefan-jansen/pyfolio-reloaded/pull/119) / [alphalens-reloaded #76](https://github.com/stefan-jansen/alphalens-reloaded/pull/76) — Preserve bootstrapped percentile columns in `show_perf_stats()` and handle empty `turnover_periods` in `create_turnover_tear_sheet()`.  
 [skfolio #526](https://github.com/skfolio/skfolio/pull/526) / [#527](https://github.com/skfolio/skfolio/pull/527) — Ignore `risk_free_rate` in FLPM constraints and prevent DCC covariance freeze on sub-threshold variance.  
 [Qlib](https://github.com/microsoft/qlib/pulls?q=is%3Apr+is%3Aopen+author%3ACyber-Marty) / [QuantStats](https://github.com/ranaroussi/quantstats/pull/576) / [VeighNa](https://github.com/vnpy/vnpy/pull/3813)
 
