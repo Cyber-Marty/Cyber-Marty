@@ -12,6 +12,8 @@ Bug fixes accepted upstream, most recent first.
 
 | Project                                                                   | My contribution                                                      | Merged PR                                                            |
 | ------------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| [bt](https://github.com/pmorissette/bt)                                   | Handle negative unit prices in integer position allocation           | [#682](https://github.com/pmorissette/bt/pull/682)                   |
+| [empyrical-reloaded](https://github.com/stefan-jansen/empyrical-reloaded) | Align inputs in up/down filters and rolling capture ratios           | [#136](https://github.com/stefan-jansen/empyrical-reloaded/pull/136) |
 | [empyrical-reloaded](https://github.com/stefan-jansen/empyrical-reloaded) | Align pandas inputs in roll_alpha and roll_beta                      | [#133](https://github.com/stefan-jansen/empyrical-reloaded/pull/133) |
 | [skfolio](https://github.com/skfolio/skfolio)                             | Skip zero-probability experts in logarithmic OpinionPooling          | [#519](https://github.com/skfolio/skfolio/pull/519)                  |
 | [skfolio](https://github.com/skfolio/skfolio)                             | Pass homogenization factor to RiskBudgeting risk functions           | [#516](https://github.com/skfolio/skfolio/pull/516)                  |
@@ -57,8 +59,6 @@ Selected pull requests; these changes have not been merged.
 
 **Quantitative research**  
 [skfolio #526](https://github.com/skfolio/skfolio/pull/526) / [#527](https://github.com/skfolio/skfolio/pull/527) — Ignore `risk_free_rate` in FLPM constraints and prevent DCC covariance freeze on sub-threshold variance.  
-[bt #682](https://github.com/pmorissette/bt/pull/682) — Handle negative unit prices in integer position allocation.  
-[empyrical-reloaded #136](https://github.com/stefan-jansen/empyrical-reloaded/pull/136) — Align inputs in `up`/`down` filters and rolling capture ratios.  
 [Qlib](https://github.com/microsoft/qlib/pulls?q=is%3Apr+is%3Aopen+author%3ACyber-Marty) / [QuantStats](https://github.com/ranaroussi/quantstats/pull/576) / [VeighNa](https://github.com/vnpy/vnpy/pull/3813)
 
 [All open pull requests](https://github.com/search?q=is%3Apr+is%3Aopen+author%3ACyber-Marty&type=pullrequests)
