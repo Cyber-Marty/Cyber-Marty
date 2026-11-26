@@ -12,6 +12,7 @@ Bug fixes accepted upstream, most recent first.
 
 | Project                                                                   | My contribution                                                      | Merged PR                                                            |
 | ------------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| [sqlfluff](https://github.com/sqlfluff/sqlfluff)                          | Support DuckDB clauses following FROM-first queries                  | [#9288](https://github.com/sqlfluff/sqlfluff/pull/9288)              |
 | [bt](https://github.com/pmorissette/bt)                                   | Handle negative unit prices in integer position allocation           | [#682](https://github.com/pmorissette/bt/pull/682)                   |
 | [empyrical-reloaded](https://github.com/stefan-jansen/empyrical-reloaded) | Align inputs in up/down filters and rolling capture ratios           | [#136](https://github.com/stefan-jansen/empyrical-reloaded/pull/136) |
 | [empyrical-reloaded](https://github.com/stefan-jansen/empyrical-reloaded) | Align pandas inputs in roll_alpha and roll_beta                      | [#133](https://github.com/stefan-jansen/empyrical-reloaded/pull/133) |
@@ -50,7 +51,6 @@ Selected pull requests; these changes have not been merged.
 
 **Python tooling**  
 [pipx #2502](https://github.com/pypa/pipx/pull/2502) — Infer entry points for plain local project paths in `pipx run`.  
-[SQLFluff #9288](https://github.com/sqlfluff/sqlfluff/pull/9288) — Support DuckDB clauses following FROM-first queries.  
 [Black #5709](https://github.com/psf/black/pull/5709) — Fix `# fmt: skip` inside f-string and t-string replacement fields.
 
 **Scientific Python**  
